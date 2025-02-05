@@ -109,16 +109,28 @@
 
 .event {
   padding: 80px 0;
+}
+.event--local {
   background-image: linear-gradient(rgb(125, 203, 255), rgb(8, 55, 87));
+}
+.event--data {
+  background-image: linear-gradient(rgb(8, 55, 87), rgb(87, 231, 135));
+}
+.event--festa {
+  background-image: linear-gradient(rgb(87, 231, 135), rgb(15, 99, 50));
+}
+.event--parabens {
+  background-image: linear-gradient(rgb(15, 99, 50), rgb(87, 231, 135));
+}
+.event--image-left .container {
+  flex-direction: row-reverse;
 }
 .event .container {
   display: flex;
+  gap: 40px;
 }
 .event__image {
   max-width: 360px;
-}
-.event__detail {
-  margin-right: 40px;
 }
 .event__detail__title {
   font-size: 18px;
