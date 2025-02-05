@@ -1,6 +1,6 @@
 AOS.init();
 
-const dataDoAniversario = new Date("Jan 03, 2025 19:00:00");
+const dataDoAniversario = new Date("Jan 03, 2026 19:00:00");
 const timeStampDoAniversario = dataDoAniversario.getTime();
 
 const contaAsHoras = setInterval(function() {
